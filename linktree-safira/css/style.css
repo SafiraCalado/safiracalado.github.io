@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color:rgb(78, 173, 78);
+    background: rgb(249,186,158);
+    background: linear-gradient(180deg, rgba(249,186,158,1) 0%, rgba(254,212,193,1) 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.foto-principal {
+    width: 80px;
+    border-radius: 50px;
+    border: 2px solid white;
+    box-shadow: 0 0 5px rgb(248, 124, 67);
+}
+
+.logo-safira {
+    width: 180px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 150px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img {
+    width: 33px;
+}
+
+.link-list {
+    list-style: none;
+}
+
+.link-list li {
+    margin: 10px 20px;
+}
+
+.link-list li a {
+    color: rgb(78, 173, 78);
+    display: block;
+    background: rgb(248, 176, 145);
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 300;
+   }
+
+.link-list li a span {
+    color: rgb(105, 102, 102);
+    display: block;
+    margin-top: 10px;
+}
